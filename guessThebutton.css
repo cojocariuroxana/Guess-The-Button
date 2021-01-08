@@ -1,0 +1,67 @@
+body {
+    background-color: lavenderblush;
+}
+
+h1 {
+    text-align: center;
+    font-family: Giorgia, serif;
+    font-size: 70px;
+    color: black;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+
+.input {
+    height: 30px;
+    width: 150px;
+    margin-left: 13%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.choseTheNumber {
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.container {
+    height: 600px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#message {
+    font-size: 40px;
+    color: darkmagenta;
+}
+
+.winner-button {
+    background-color: greenyellow;
+}
+
+.loser-button {
+    background-color: red;
+}

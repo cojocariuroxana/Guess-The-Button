@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" type="text/css" href="guessTheButton.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Button</title>
+</head>
+
+<body>
+    <h1>Guess The Button</h1>
+    <div class="choseTheNumber">
+        <p>Select the number of buttons from 3 to 20 in the box belaw</p>
+        <input type="number" min="3" max="20" class="input" id="inputNumber">
+        <button type="submit" id="submit" onclick="generateButtons()">Submit/Reset</button>
+        <p id="message"> Try to guess the lucky button and press it!</p>
+    </div>
+    <div class="container">
+        <div class="center" id="keyboard"></div>
+    </div>
+    <script src="guessTheButton.js"></script>
+</body>
+
+</html>
