@@ -1,1 +1,1 @@
-# Guess-The-Button
+A game in which you choose a minimum number of 3 buttons and a maximum of 20, then choose a button that you press hoping that you have chosen the lucky one. If you pressed the lucky button it turns green if it is not the lucky button it turns red.
