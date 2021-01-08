@@ -47,11 +47,11 @@ function chooseLuckyButton() {
 }
 
 function resetBoard() {
-    // sterge toate butoanele daca a existat un meci precedent
+    //  clear all buttons if there was a previous match
     const keyboard = document.getElementById('keyboard');
     console.log('childNodes', keyboard.childNodes)
 
-    // scoate toate butonele din container
+    // remove all buttons from the container
     while (keyboard.firstChild) {
         keyboard.removeChild(keyboard.lastChild);
     }
@@ -61,7 +61,7 @@ function resetBoard() {
         buttons.pop();
     }
 
-    // reseteaza variabilele la valorile default
+    //resets the variables to the default values
     luckyButton = '';
     chosenButton = 0;
     numberOfButtons = 0;
